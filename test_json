@@ -1,0 +1,663 @@
+{
+   "columns":[
+      {
+         "title":"Názov kúpaliska",
+         "description":null,
+         "type":"string",
+         "displayInTable":true,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true
+      },
+      {
+         "title":"Obec",
+         "description":null,
+         "type":"string",
+         "displayInTable":true,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true,
+         "enumerated":true
+      },
+      {
+         "title":"Typ kúpaliska",
+         "description":null,
+         "type":"string",
+         "displayInTable":true,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true,
+         "enumerated":true
+      },
+      {
+         "title":"Druh kúpaliska",
+         "description":null,
+         "type":"string",
+         "displayInTable":true,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true,
+         "enumerated":true
+      },
+      {
+         "title":"Okres",
+         "description":null,
+         "type":"string",
+         "groupBy":true,
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true,
+         "enumerated":true
+      },
+      {
+         "title":"Kraj",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true,
+         "enumerated":true
+      },
+      {
+         "title":"X-JTSK",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Y-JTSK",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Zem. dĺžka",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Zem. šírka",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Názov prevádzkovateľa",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"IČO prevádzkovateľa",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Ulica",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Číslo",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"PSČ",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Obec",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Dostupnosť pitnej vody",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"WC",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Sprcha",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Zber odpadu",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Iná vybavenosť",
+         "description":null,
+         "type":"string",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Kapacita kúpaliska",
+         "description":null,
+         "type":"number",
+         "displayInTable":true,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":true
+      },
+      {
+         "title":"Vodná plocha kúpaliska",
+         "description":null,
+         "type":"number",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      },
+      {
+         "title":"Oddychová plocha kúpaliska",
+         "description":null,
+         "type":"number",
+         "displayInTable":false,
+         "displayInDetail":true,
+         "sortable":true,
+         "filterable":false
+      }
+   ],
+   "rows":[
+      {
+         "attributes":[
+            "Letné kúpalisko Rača",
+            "Bratislava - mestská časť Rača",
+            "Netermálne kúpalisko",
+            "Umelé kúpalisko",
+            "Okres Bratislava III",
+            "Okres Bratislava I",
+            "1.2732174e+06",
+            "568703.56",
+            "48216681",
+            "17164748",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "25",
+            "10",
+            "áno",
+            "Neuvedené",
+            "1000",
+            "1000",
+            "1000"
+         ],
+         "lists":[
+            {
+               "title":"Údaje o bazénoch",
+               "columns":[
+                  "Názov bazénu",
+                  "Typ bazénu - voda",
+                  "Typ bazénu - využitie"
+               ],
+               "rows":[
+                  [
+                     "Umelý bazén",
+                     "Netermálny",
+                     "Oddychový"
+                  ],
+                  [
+                     "Umelý bazén 2",
+                     "Netermálny",
+                     "Oddychový"
+                  ],
+                  [
+                     "Umelý bazén 3",
+                     "Netermálny",
+                     "Oddychový"
+                  ],
+                  [
+                     "Umelý bazén 4",
+                     "Netermálny",
+                     "Oddychový"
+                  ],
+                  [
+                     "Umelý bazén 5",
+                     "Netermálny",
+                     "Oddychový"
+                  ],
+                  [
+                     "Umelý bazén 6",
+                     "Netermálny",
+                     "Oddychový"
+                  ]
+               ]
+            },
+            {
+               "title":"Stavy kúpaliska",
+               "columns":[
+                  "Obdobie",
+                  "Stav",
+                  "Poznámka"
+               ],
+               "rows":[
+                  [
+                     "Pred LTS",
+                     "Mimo prevádzky",
+                     "prevádzkovateľ požiadal o uvedenie priestorov do prevádzky, vydanie rozhodnutia je tohto času v riešení"
+                  ],
+                  [
+                     "25. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "26. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "27. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "28. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "29. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "30. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "31. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ],
+                  [
+                     "32. týždeň",
+                     "Prevádzkované",
+                     "21-JUN-21 - 15-SEP-21"
+                  ]
+               ]
+            }
+         ]
+      },
+      {
+         "attributes":[
+            "Letné kúpalisko Malacky1",
+            "Malacky",
+            "Termálne kúpalisko",
+            "Umelé kúpalisko",
+            "Okres Malacky",
+            "Okres Bratislava I",
+            "1.2602356e+06",
+            "576210.5",
+            "48409539",
+            "17029784",
+            "AD HOC Malacky",
+            "123456",
+            "-",
+            "2",
+            "90101",
+            "Malacky",
+            "",
+            "16",
+            "22",
+            "komunálny odpad- koše",
+            "Neuvedené",
+            "1200",
+            "1200",
+            "1001"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Biokúpalisko BOROVICA1",
+            "Lozorno",
+            "Netermálne kúpalisko",
+            "Biokúpalisko",
+            "Okres Malacky",
+            "Okres Bratislava I",
+            "1.2560989e+06",
+            "577988.6",
+            "48362275",
+            "17016809",
+            "AD HOC Malacky",
+            "123456",
+            "-",
+            "2",
+            "90101",
+            "Malacky",
+            "Áno",
+            "14",
+            "4",
+            "Komunálny odpad",
+            "Neuvedené",
+            "1200",
+            "6000",
+            "1500"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Jazero Úhorné",
+            "Úhorná",
+            "Netermálne kúpalisko",
+            "",
+            "Okres Gelnica",
+            "Okres Senec",
+            "1.2186741e+06",
+            "304296.62",
+            "48707934",
+            "20694098",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Nie",
+            "11",
+            "0",
+            "nie",
+            "Neuvedené",
+            "",
+            "",
+            ""
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Plážové kúpalisko JAZERO",
+            "Košice-mestská časť Juh",
+            "Netermálne kúpalisko",
+            "",
+            "Okres Košice IV",
+            "Okres Senec",
+            "1.2404529e+06",
+            "260861.06",
+            "48693764",
+            "21286053",
+            "Jazero",
+            "584785",
+            "Hlavná",
+            "55",
+            "94152",
+            "Jazernica",
+            "Áno",
+            "8",
+            "4",
+            "Komunál",
+            "4 šatne",
+            "3000",
+            "20000",
+            "3000"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Rosnička",
+            "Bratislava - mestská časť Dúbravka",
+            "Netermálne kúpalisko",
+            "Umelé kúpalisko",
+            "Okres Bratislava IV",
+            "Okres Bratislava I",
+            "1.2771902e+06",
+            "577657.94",
+            "48173012",
+            "17050312",
+            "4events,s.r.o.",
+            "36825671",
+            "Michalská ",
+            "9",
+            "81101",
+            "Bratislava - mestská časť Petržalka",
+            "",
+            "15",
+            "20",
+            "áno",
+            "Neuvedené",
+            "1000",
+            "500",
+            "1000"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Kúpele Bojnice",
+            "Bojnice",
+            "Netermálne kúpalisko",
+            "Kúpalisko v zariadení verejenosti",
+            "Okres Prievidza",
+            "Okres Bratislava III",
+            "1.2103856e+06",
+            "459458.78",
+            "48774653",
+            "18572484",
+            "Kúpele Bojnice",
+            "123456",
+            "Pekná",
+            "17",
+            "97201",
+            "Bojnice",
+            "",
+            "0",
+            "0",
+            "komunálny odpad",
+            "Neuvedené",
+            "1200",
+            "10000",
+            "500"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Slnečné jazerá 1",
+            "Senec",
+            "Netermálne kúpalisko",
+            "",
+            "Okres Senec",
+            "Okres Bratislava I",
+            "1.2752616e+06",
+            "550251.9",
+            "48214731",
+            "17414545",
+            "Slnečné jazerá",
+            "123456",
+            "-",
+            "2",
+            "90044",
+            "Senec",
+            "Áno",
+            "128",
+            "58",
+            "komunálny odpad - koše",
+            "šatne 20ks",
+            "5000",
+            "1000000",
+            "12000"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Slnečné jazerá 2",
+            "Senec",
+            "Netermálne kúpalisko",
+            "",
+            "Okres Senec",
+            "Okres Bratislava I",
+            "1.2752616e+06",
+            "550251.9",
+            "48214731",
+            "17414545",
+            "Slnečné jazerá",
+            "123456",
+            "-",
+            "2",
+            "90044",
+            "Senec",
+            "Áno",
+            "128",
+            "58",
+            "komunálny odpad - koše",
+            "šatne 20ks",
+            "5000",
+            "1000000",
+            "12000"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Slnečné jazerá 3",
+            "Senec",
+            "Netermálne kúpalisko",
+            "",
+            "Okres Senec",
+            "Okres Bratislava I",
+            "1.2752616e+06",
+            "550251.9",
+            "48214731",
+            "17414545",
+            "Slnečné jazerá",
+            "123456",
+            "-",
+            "2",
+            "90044",
+            "Senec",
+            "Áno",
+            "128",
+            "58",
+            "komunálny odpad - koše",
+            "šatne 20ks",
+            "5000",
+            "1000000",
+            "12000"
+         ],
+         "lists":[
+            
+         ]
+      },
+      {
+         "attributes":[
+            "Slnečné jazerá 4",
+            "Senec",
+            "Netermálne kúpalisko",
+            "",
+            "Okres Senec",
+            "Okres Bratislava I",
+            "1.2752616e+06",
+            "550251.9",
+            "48214731",
+            "17414545",
+            "Slnečné jazerá",
+            "123456",
+            "-",
+            "2",
+            "90044",
+            "Senec",
+            "Áno",
+            "128",
+            "58",
+            "komunálny odpad - koše",
+            "šatne 20ks",
+            "5000",
+            "1000000",
+            "12000"
+         ],
+         "lists":[
+            
+         ]
+      }
+   ]
+}
